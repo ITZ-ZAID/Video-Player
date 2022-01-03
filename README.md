@@ -30,7 +30,7 @@
 
 ## ᴄᴏᴍᴍᴀɴᴅꜱ 
 
-[CLICK HERE](https://t.me/SUPERIOR_BOTS/160)
+[CLICK HERE](https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-01-03)
 
 
 ## ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴀɪ 🔥️
