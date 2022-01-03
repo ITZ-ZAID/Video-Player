@@ -48,7 +48,7 @@ async def load_start():
             print("Error came while clearing db")
     await app.send_message(LOG_GROUP_ID, "Bot Started")
     await client.send_message(LOG_GROUP_ID, "Assistant Started")
-    await client.join_chat("Sayonara_story")
+    await client.join_chat("Superior_Bots")
     print("[INFO]: STARTED")
 
 
