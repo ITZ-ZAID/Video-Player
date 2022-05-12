@@ -3,7 +3,7 @@ aiofiles
 asyncio
 ffmpeg-python
 pillow
-pyrogram
+pyrogram==1.4.15
 py-tgcalls
 pytube
 wget
@@ -25,7 +25,7 @@ pyromod
 requests
 speedtest-cli
 uvloop
-git+https://github.com/ITZ-ZAID/yt-dowload@master
+yt-dlp
 hachoir
 lyricsgenius
 httpx>=0.14.2
