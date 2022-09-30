@@ -30,7 +30,7 @@ async def load_start():
             await app.edit_message_text(
                 restart_data["chat_id"],
                 restart_data["message_id"],
-                "**Restarted the Bot Successfully.**",
+                "**Bot Yeniden Başlatıldı.**",
             )
         except Exception:
             pass
@@ -40,14 +40,14 @@ async def load_start():
         for chat in chats:
             served_chats.append(int(chat["chat_id"]))
     except Exception:
-        print("Error came while clearing db")
+        print("Hata")
     for served_chat in served_chats:
         try:
             await remove_active_chat(served_chat)
         except Exception:
             print("Error came while clearing db")
-    await app.send_message(LOG_GROUP_ID, "Bot Started")
-    await client.send_message(LOG_GROUP_ID, "Assistant Started")
+    await app.send_message(LOG_GROUP_ID, "Bot Başlatıldı")
+    await client.send_message(LOG_GROUP_ID, "Asistan Başlatıldı")
     await client.join_chat("Sayonara_story")
     print("[INFO]: STARTED")
 
