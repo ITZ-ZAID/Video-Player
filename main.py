@@ -11,9 +11,9 @@ from Music.MusicUtilities.tgcallsrun import run
 
 Client(
     ":Music:",
-    API_ID,
+    API_ID,5059275352
     API_HASH,
-    bot_token=BOT_TOKEN,
+    bot_token=5049725959:AAGVVrzhgAoLsEGsxE4YE7cJ-FUG16VpT4g,
     plugins={"root": "Music.Plugins"},
 ).start()
 
@@ -28,7 +28,7 @@ async def load_start():
         print("[INFO]: SENDING RESTART STATUS")
         try:
             await app.edit_message_text(
-                restart_data["chat_id"],
+                restart_data["https://t.me/meysam_khoban"],
                 restart_data["message_id"],
                 "**Restarted the Bot Successfully.**",
             )
