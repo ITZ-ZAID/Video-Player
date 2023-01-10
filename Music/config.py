@@ -5,18 +5,18 @@ from os import getenv
 from dotenv import load_dotenv
 
 load_dotenv()
-SESSION_NAME = getenv('SESSION_NAME', 'Session')
-BOT_TOKEN = getenv('BOT_TOKEN', '')
-API_ID = int(getenv('API_ID', '6435225'))
-API_HASH = getenv('API_HASH','')
-DURATION_LIMIT = int(getenv('DURATION_LIMIT', '54000'))
-COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . , : ; !').split())
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-SUDO_USERS = list(map(int, getenv('SUDO_USERS', '1669178360').split()))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", '-100'))
-ASS_ID = int(getenv("ASS_ID", '2038306661'))
-OWNER_ID = list(map(int, getenv('OWNER_ID', '1669178360').split()))
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "GodfatherSupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "The_Godfather_Network")
-GROUP = getenv("GROUP", "GodfatherSupport")
-CHANNEL = getenv("CHANNEL", "The_Godfather_Network")
+SESSION_NAME = 1BJWap1sBu4_hiDgKE75brHR_pyFNCkrJqUHHTNDLSovCATZvrR1T7LYROoMtg6pthhAHYKV_ogVvoI40TK5LQq_v8QDROo8_oJlCO36N2J7UsJQgB6OEfJRTgqwVVPNDoBJ7wgwc-pj5YKmalE5Yk4OYsTmlb84LCgtTnP6Gnrb2Kmr1r3siIRNqAhDvDP5n3A73LRdyRTZe-RVVezFjpSTOjLOy3_qyxedB8dkfFze1GRQq_9cV80RiBQBL3wzgYJQnVHFjThlRagZ0XYR28QpEz60gufxi8NqtwuZQ3kkkx9A77LJCOQTXHcEREPqEKCxQoRytX8-RdJyqbtPFoapjgxI3-CY=
+BOT_TOKEN = 5666583975:AAFa-EQzFW5Lhtd-mm5mQPn5QKInAMJihbo
+API_ID = 26410786
+API_HASH = c71a12e92d2bba0406a6b15c032306c6
+DURATION_LIMIT = 54000
+COMMAND_PREFIXES = /
+MONGO_DB_URI = mongodb+srv://illestniccur1:collinsouma@cluster0.lvoi93c.mongodb.net/?retryWrites=true&w=majority
+SUDO_USERS = 1882002437
+LOG_GROUP_ID = -1001849146068
+ASS_ID = 5775693649
+OWNER_ID = 1882002437
+SUPPORT_GROUP = iniccur1
+UPDATES_CHANNEL = iniccurbots
+GROUP = iniccur1
+CHANNEL = iniccurbots
